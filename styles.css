@@ -75,7 +75,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 .ventures-head .side{font-size:16px;color:var(--slate);max-width:380px}
 .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
 .venture{border-radius:20px;padding:32px;display:flex;flex-direction:column;gap:20px;min-height:420px;background:var(--white);border:1px solid var(--bone-line)}
-.venture.dark{border-color:var(--ink)}
+.venture.dark{background:var(--ink);color:var(--bone);border-color:var(--ink)}
 .tags{display:flex;flex-wrap:wrap;gap:8px}
 .tag{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:6px 10px;border-radius:999px}
 .tag-fill{background:var(--ink);color:var(--bone)}
